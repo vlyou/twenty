@@ -189,66 +189,86 @@
   --t-snack-bar-info-background-color: #0047f112;
   --t-snack-bar-default-color: color(display-p3 0.2 0.2 0.2);
   --t-snack-bar-default-background-color: color(display-p3 0 0 0 / 0.039);
-  --t-tag-text-gray: color(display-p3 0.4 0.4 0.4);
+  /* JIMJOBS #18: tag gray ink of the JimJobs colour system (tag.gray.ink), tuned to stay apart under colour blindness */
+  --t-tag-text-gray: #5e5d5b;
   --t-tag-text-mauve: color(display-p3 0.395 0.388 0.424);
   --t-tag-text-slate: color(display-p3 0.379 0.392 0.421);
   --t-tag-text-sage: color(display-p3 0.377 0.395 0.389);
   --t-tag-text-olive: color(display-p3 0.38 0.395 0.374);
   --t-tag-text-sand: color(display-p3 0.388 0.388 0.37);
   --t-tag-text-tomato: color(display-p3 0.755 0.259 0.152);
-  --t-tag-text-red: color(display-p3 0.744 0.234 0.222);
+  /* JIMJOBS #18: tag red ink of the JimJobs colour system (tag.red.ink), tuned to stay apart under colour blindness */
+  --t-tag-text-red: #bd1f3d;
   --t-tag-text-ruby: color(display-p3 0.728 0.211 0.311);
   --t-tag-text-crimson: color(display-p3 0.731 0.195 0.388);
-  --t-tag-text-pink: color(display-p3 0.698 0.219 0.528);
+  /* JIMJOBS #18: tag pink ink of the JimJobs colour system (tag.pink.ink), tuned to stay apart under colour blindness */
+  --t-tag-text-pink: #a72a6a;
   --t-tag-text-plum: color(display-p3 0.543 0.263 0.619);
-  --t-tag-text-purple: color(display-p3 0.473 0.281 0.687);
+  /* JIMJOBS #18: tag purple ink of the JimJobs colour system (tag.purple.ink), tuned to stay apart under colour blindness */
+  --t-tag-text-purple: #6e0d67;
   --t-tag-text-violet: color(display-p3 0.383 0.317 0.702);
   --t-tag-text-iris: color(display-p3 0.337 0.326 0.748);
   --t-tag-text-cyan: color(display-p3 0.08 0.48 0.63);
-  --t-tag-text-turquoise: color(display-p3 0.08 0.5 0.43);
-  --t-tag-text-sky: color(display-p3 0.193 0.448 0.605);
-  --t-tag-text-blue: color(display-p3 0.256 0.354 0.755);
+  /* JIMJOBS #18: tag turquoise ink of the JimJobs colour system (tag.turquoise.ink), tuned to stay apart under colour blindness */
+  --t-tag-text-turquoise: #127973;
+  /* JIMJOBS #18: tag sky ink of the JimJobs colour system (tag.sky.ink), tuned to stay apart under colour blindness */
+  --t-tag-text-sky: #1a748f;
+  /* JIMJOBS #18: tag blue ink of the JimJobs colour system (tag.blue.ink), tuned to stay apart under colour blindness */
+  --t-tag-text-blue: #085491;
   --t-tag-text-jade: color(display-p3 0.15 0.5 0.37);
-  --t-tag-text-green: color(display-p3 0.19 0.5 0.32);
+  /* JIMJOBS #18: tag green ink of the JimJobs colour system (tag.green.ink), tuned to stay apart under colour blindness */
+  --t-tag-text-green: #396434;
   --t-tag-text-grass: color(display-p3 0.263 0.488 0.261);
   --t-tag-text-mint: color(display-p3 0.203 0.463 0.397);
   --t-tag-text-lime: color(display-p3 0.386 0.482 0.227);
   --t-tag-text-bronze: color(display-p3 0.471 0.373 0.336);
   --t-tag-text-gold: color(display-p3 0.433 0.386 0.305);
   --t-tag-text-brown: color(display-p3 0.485 0.374 0.288);
-  --t-tag-text-orange: color(display-p3 0.76 0.34 0);
+  /* JIMJOBS #18: tag orange ink of the JimJobs colour system (tag.orange.ink), tuned to stay apart under colour blindness */
+  --t-tag-text-orange: #8a4004;
   --t-tag-text-amber: color(display-p3 0.64 0.4 0);
-  --t-tag-text-yellow: color(display-p3 0.6 0.44 0);
-  --t-tag-background-gray: color(display-p3 0.976 0.976 0.976);
+  /* JIMJOBS #18: tag yellow ink, the attention chip of the JimJobs colour system: antraciet on the house yellow, never white */
+  --t-tag-text-yellow: #333333;
+  /* JIMJOBS #18: tag gray fill of the JimJobs colour system (tag.gray.fill), the ink tinted into white */
+  --t-tag-background-gray: #eeeeed;
   --t-tag-background-mauve: color(display-p3 0.946 0.938 0.952);
   --t-tag-background-slate: color(display-p3 0.94 0.941 0.953);
   --t-tag-background-sage: color(display-p3 0.935 0.944 0.94);
   --t-tag-background-olive: color(display-p3 0.939 0.945 0.937);
   --t-tag-background-sand: color(display-p3 0.943 0.942 0.936);
   --t-tag-background-tomato: color(display-p3 0.985 0.924 0.909);
-  --t-tag-background-red: color(display-p3 0.985 0.925 0.925);
+  /* JIMJOBS #18: tag red fill of the JimJobs colour system (tag.red.fill), the ink tinted into white */
+  --t-tag-background-red: #fceaea;
   --t-tag-background-ruby: color(display-p3 0.983 0.92 0.928);
   --t-tag-background-crimson: color(display-p3 0.987 0.917 0.941);
-  --t-tag-background-pink: color(display-p3 0.981 0.917 0.96);
+  /* JIMJOBS #18: tag pink fill of the JimJobs colour system (tag.pink.fill), the ink tinted into white */
+  --t-tag-background-pink: #f9eaef;
   --t-tag-background-plum: color(display-p3 0.973 0.923 0.98);
-  --t-tag-background-purple: color(display-p3 0.963 0.931 0.989);
+  /* JIMJOBS #18: tag purple fill of the JimJobs colour system (tag.purple.fill), the ink tinted into white */
+  --t-tag-background-purple: #f1e7ef;
   --t-tag-background-violet: color(display-p3 0.953 0.943 0.993);
   --t-tag-background-iris: color(display-p3 0.943 0.945 0.992);
   --t-tag-background-cyan: color(display-p3 0.888 0.965 0.975);
-  --t-tag-background-turquoise: color(display-p3 0.895 0.971 0.952);
-  --t-tag-background-sky: color(display-p3 0.899 0.963 0.989);
-  --t-tag-background-blue: color(display-p3 0.933 0.948 0.992);
+  /* JIMJOBS #18: tag turquoise fill of the JimJobs colour system (tag.turquoise.fill), the ink tinted into white */
+  --t-tag-background-turquoise: #e9f1f0;
+  /* JIMJOBS #18: tag sky fill of the JimJobs colour system (tag.sky.fill), the ink tinted into white */
+  --t-tag-background-sky: #e9f1f4;
+  /* JIMJOBS #18: tag blue fill of the JimJobs colour system (tag.blue.fill), the ink tinted into white */
+  --t-tag-background-blue: #e7edf4;
   --t-tag-background-jade: color(display-p3 0.912 0.965 0.932);
-  --t-tag-background-green: color(display-p3 0.913 0.964 0.925);
+  /* JIMJOBS #18: tag green fill of the JimJobs colour system (tag.green.fill), the ink tinted into white */
+  --t-tag-background-green: #eaefe9;
   --t-tag-background-grass: color(display-p3 0.923 0.965 0.917);
   --t-tag-background-mint: color(display-p3 0.888 0.972 0.95);
   --t-tag-background-lime: color(display-p3 0.939 0.965 0.851);
   --t-tag-background-bronze: color(display-p3 0.958 0.932 0.919);
   --t-tag-background-gold: color(display-p3 0.947 0.94 0.909);
   --t-tag-background-brown: color(display-p3 0.959 0.936 0.909);
-  --t-tag-background-orange: color(display-p3 0.989 0.938 0.85);
+  /* JIMJOBS #18: tag orange fill of the JimJobs colour system (tag.orange.fill), the ink tinted into white */
+  --t-tag-background-orange: #f4ebe6;
   --t-tag-background-amber: color(display-p3 0.994 0.969 0.782);
-  --t-tag-background-yellow: color(display-p3 0.997 0.982 0.749);
+  /* JIMJOBS #18: tag yellow fill, the attention chip: the house yellow under antraciet ink (semantic.attention) */
+  --t-tag-background-yellow: #ffce00;
   --t-code-text-gray: color(display-p3 0.514 0.514 0.514);
   --t-code-text-sky: color(display-p3 0.555 0.845 0.959);
   --t-code-text-pink: color(display-p3 0.748 0.27 0.581);
