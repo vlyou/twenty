@@ -76,7 +76,8 @@
   --t-accent-tertiary: color(display-p3 0.933 0.948 0.992);
   --t-accent-quaternary: color(display-p3 0.971 0.977 0.998);
   --t-accent-accent3570: color(display-p3 0.569 0.639 0.916);
-  --t-accent-accent4060: color(display-p3 0.569 0.639 0.916);
+  /* JIMJOBS #18: disabled antraciet accent, action.primary.disabled of the JimJobs colour system; white ink on it and its use as text both stay above 4.5:1 */
+  --t-accent-accent4060: #6a6967;
   --t-accent-accent1: color(display-p3 0.992 0.992 0.996);
   --t-accent-accent2: color(display-p3 0.971 0.977 0.998);
   --t-accent-accent3: color(display-p3 0.933 0.948 0.992);
@@ -281,7 +282,8 @@
   --t-color-turquoise: color(display-p3 0.297 0.637 0.581);
   --t-color-cyan: color(display-p3 0.282 0.627 0.765);
   --t-color-sky: color(display-p3 0.585 0.877 0.983);
-  --t-color-blue: color(display-p3 0.276 0.384 0.837);
+  /* JIMJOBS #18: JIM antraciet as the clickable accent (filled buttons, checkbox, toggle, focus ring, links); the ink on it is white hard-coded in components, so it cannot be the yellow */
+  --t-color-blue: #333333;
   --t-color-iris: color(display-p3 0.357 0.357 0.81);
   --t-color-violet: color(display-p3 0.417 0.341 0.784);
   --t-color-purple: color(display-p3 0.523 0.318 0.751);
@@ -348,9 +350,11 @@
   --t-color-blue7: color(display-p3 0.685 0.74 0.957);
   --t-color-blue8: color(display-p3 0.569 0.639 0.916);
   --t-color-blue9: color(display-p3 0.276 0.384 0.837);
-  --t-color-blue10: color(display-p3 0.234 0.343 0.801);
+  /* JIMJOBS #18: hover of the antraciet accent, one step darker like upstream blue10; white ink on it stays above 4.5:1 */
+  --t-color-blue10: #222222;
   --t-color-blue11: color(display-p3 0.256 0.354 0.755);
-  --t-color-blue12: color(display-p3 0.133 0.175 0.348);
+  /* JIMJOBS #18: pressed state of the antraciet accent, the darkest step like upstream blue12 */
+  --t-color-blue12: #171717;
   --t-color-purple1: color(display-p3 0.995 0.988 0.996);
   --t-color-purple2: color(display-p3 0.983 0.971 0.993);
   --t-color-purple3: color(display-p3 0.963 0.931 0.989);
