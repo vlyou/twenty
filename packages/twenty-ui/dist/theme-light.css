@@ -71,7 +71,8 @@
   --t-clickable-element-background-transition: background 0.1s ease;
   --t-last-layer-z-index: 2147483647;
   --t-buttons-secondary-text-color: color(display-p3 0.63 0.69 1);
-  --t-accent-primary: color(display-p3 0.831 0.87 1);
+  /* JIMJOBS #18: the gold line brand.goud.line (the house yellow darkened to 3:1 on the light grey) on the outline of secondary accent buttons, the only thing this token paints; the ink inside is the antraciet accent, never white */
+  --t-accent-primary: #a1820b;
   --t-accent-secondary: color(display-p3 0.831 0.87 1);
   --t-accent-tertiary: color(display-p3 0.933 0.948 0.992);
   --t-accent-quaternary: color(display-p3 0.971 0.977 0.998);
