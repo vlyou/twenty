@@ -73,9 +73,12 @@
   --t-buttons-secondary-text-color: color(display-p3 0.63 0.69 1);
   /* JIMJOBS #18: the gold line brand.goud.line (the house yellow darkened to 3:1 on the light grey) on the outline of secondary accent buttons, the only thing this token paints; the ink inside is the antraciet accent, never white */
   --t-accent-primary: #a1820b;
-  --t-accent-secondary: color(display-p3 0.831 0.87 1);
-  --t-accent-tertiary: color(display-p3 0.933 0.948 0.992);
-  --t-accent-quaternary: color(display-p3 0.971 0.977 0.998);
+  /* JIMJOBS #18: JIM light grey in place of soft blue: pressed secondary accent button and info banners */
+  --t-accent-secondary: #ece9e1;
+  /* JIMJOBS #18: JIM light grey in place of soft blue: hover and focus halo of accent buttons, filter chip border */
+  --t-accent-tertiary: #ece9e1;
+  /* JIMJOBS #18: JIM light grey in place of soft blue: selected table row, selected record card, filter chip */
+  --t-accent-quaternary: #ece9e1;
   --t-accent-accent3570: color(display-p3 0.569 0.639 0.916);
   /* JIMJOBS #18: disabled antraciet accent, action.primary.disabled of the JimJobs colour system; white ink on it and its use as text both stay above 4.5:1 */
   --t-accent-accent4060: #6a6967;
